@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Setup Axios defaults
-  axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://taskmanager-q1cr.onrender.com/api';
 
   useEffect(() => {
     const checkUserLoggedIn = async () => {
