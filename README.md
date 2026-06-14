@@ -6,7 +6,6 @@ This is a modern, premium full-stack Task Management application built with Reac
 - **Luxury Dark Theme**: Glassmorphism UI, smooth animations, and premium color palettes.
 - **Authentication**: JWT-based auth with bcrypt password hashing.
 - **Real-time Sync**: Socket.io integration across multiple tabs.
-- **Kanban Board**: Drag and drop task management.
 - **Responsive**: Fully responsive across mobile, tablet, and desktop.
 - **Calendar View**: View tasks by their due dates.
 
