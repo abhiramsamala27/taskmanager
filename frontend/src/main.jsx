@@ -5,6 +5,10 @@ import './index.css'
 import { ThemeProvider } from './context/ThemeContext.jsx'
 import { AuthProvider } from './context/AuthContext.jsx'
 import { SocketProvider } from './context/SocketContext.jsx'
+import { startKeepAlive } from './utils/keepAlive.js'
+
+// Wake up the Render backend immediately so login is instant
+startKeepAlive();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
